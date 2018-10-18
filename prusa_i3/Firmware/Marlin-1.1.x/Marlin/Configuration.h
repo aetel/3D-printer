@@ -544,7 +544,7 @@
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 319.2674}
 
 //8 micropasos
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 72,560773}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 75.58413854}
 
 /**
  * Default Max Feed Rate (mm/s)   
@@ -932,7 +932,7 @@
   // Set the boundaries for probing (where the probe can reach).
   #define LEFT_PROBE_BED_POSITION 32
   #define RIGHT_PROBE_BED_POSITION 190
-  #define FRONT_PROBE_BED_POSITION 15
+  #define FRONT_PROBE_BED_POSITION 15+15
   #define BACK_PROBE_BED_POSITION 182
 
   // The Z probe minimum outer margin (to validate G29 parameters).
